@@ -1,3 +1,9 @@
+# Curbo
+
+A C translation of the Kurbo library done by Claude prompting. _It looks like everything works_ and one of the example projects appears to be correct, but further testing & validation is required.
+
+It's worth noting Claude used big fixed size arrays instead of dynamic arrays, which is probably a good move in the short term while algorithms are tested. The API could be changed later to support arrays like this `T* array, size_t array_cap`, or to accept custom allocators and return new arrays. We'll see.
+
 <div align="center">
 
 # Kurbo
